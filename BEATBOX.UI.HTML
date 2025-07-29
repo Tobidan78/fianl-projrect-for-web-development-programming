@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BeatBox UI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 transition-all duration-300 p-4">
+
+  <!-- Header -->
+  <header class="text-center py-6 bg-white shadow mb-8">
+    <h1 class="text-4xl font-bold mb-4">🎷 BeatBox UI</h1>
+    <div class="flex justify-center items-center flex-wrap gap-2">
+      <input 
+        type="text" 
+        id="search" 
+        placeholder="Search for music..." 
+        class="w-full sm:w-96 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-indigo-200"
+      />
+      <button 
+        id="theme-toggle" 
+        class="bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition"
+      >
+        🍗 Toggle Theme
+      </button>
+    </div>
+  </header>
+
+  <!-- Trending Section -->
+  <section id="trending" class="mb-10">
+    <h2 class="text-2xl font-semibold text-center mb-6">🔥 Trending Tracks</h2>
+    <div id="trending-tracks" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 fade-in">
+
+      <!-- Card 1 -->
+      <div class="bg-white rounded-lg shadow p-4 text-center hover:shadow-md transition">
+        <img src="“Jason Tom.jpeg" alt="Jason Tom" class="w-full h-auto rounded mb-3">
+        <p><strong>Artist:</strong> Jason Tom</p>
+        <p><strong>Track:</strong> Levitating</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white rounded-lg shadow p-4 text-center hover:shadow-md transition">
+        <img src="The weekend.jpeg" alt="The Weeknd" class="w-full h-auto rounded mb-3">
+        <p><strong>Artist:</strong> The Weeknd</p>
+        <p><strong>Track:</strong> Blinding Lights</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white rounded-lg shadow p-4 text-center hover:shadow-md transition">
+        <img src="Ed sheeran.jpeg" alt="Ed Sheeran" class="w-full h-auto rounded mb-3">
+        <p><strong>Artist:</strong> Ed Sheeran</p>
+        <p><strong>Track:</strong> Perfect</p>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="bg-white rounded-lg shadow p-4 text-center hover:shadow-md transition">
+        <img src="chris brown.jpeg" alt="Chris Brown" class="w-full h-auto rounded mb-3">
+        <p><strong>Artist:</strong> Chris Brown</p>
+        <p><strong>Track:</strong> Loyal</p>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="bg-white rounded-lg shadow p-4 text-center hover:shadow-md transition">
+        <img src="Drake.jpeg" alt="Drake" class="w-full h-auto rounded mb-3">
+        <p><strong>Artist:</strong> Drake</p>
+        <p><strong>Track:</strong> U My Everything</p>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="bg-white rounded-lg shadow p-4 text-center hover:shadow-md transition">
+        <img src="Rehana.jpeg" alt="Rihanna" class="w-full h-auto rounded mb-3">
+        <p><strong>Artist:</strong> Rihanna</p>
+        <p><strong>Track:</strong> Umbrella</p>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="bg-white rounded-lg shadow p-4 text-center hover:shadow-md transition">
+        <img src="nicki minaj.jpeg" alt="Nicki Minaj" class="w-full h-auto rounded mb-3">
+        <p><strong>Artist:</strong> Nicki Minaj</p>
+        <p><strong>Track:</strong> Anaconda</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Search Results Section -->
+  <main>
+    <h2 class="text-2xl font-semibold text-center mb-6">Search Results</h2>
+    <section id="results" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 fade-in">
+      <!-- Search results will be injected here -->
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center py-8 bg-white text-gray-600 border-t mt-12">
+    <p class="mb-2">&copy; 2025 BeatBox UI. All rights reserved.</p>
+    <p class="mb-4">Made with ❤️ using Deezer API</p>
+    <div class="flex justify-center gap-4">
+      <img src="instagram.jpeg" alt="Instagram" class="w-8 h-8 hover:scale-110 transition">
+      <img src="twitter.jpeg" alt="Twitter" class="w-8 h-8 hover:scale-110 transition">
+      <img src="facebook.jpeg" alt="Facebook" class="w-8 h-8 hover:scale-110 transition">
+      <img src="snapchat.jpeg" alt="Snapchat" class="w-8 h-8 hover:scale-110 transition">
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+<!-- This is the end of the beatbox.UI.HTML file -->
